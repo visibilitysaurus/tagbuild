@@ -10,7 +10,7 @@ on:
         tag:
           description: 'The tag for which to run the workflow'
           required: true
-          default: 'v.1.0.0'
+          default: 'v.1.2.1'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
