@@ -20,6 +20,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.4
-      # Runs a single command using the runners shell
+      - name: Install dependencies from NPM 
+        run: npm install
       - name: Run ESLint
         run: npx eslint index.js
