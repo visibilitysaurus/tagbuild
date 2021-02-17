@@ -1,0 +1,23 @@
+{
+  "name": "tagbuild",
+  "version": "1.0.0",
+  "description": "Test NPM app to use for tag based builds",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visibilitysaurus/tagbuild.git"
+  },
+  "keywords": [
+    "test",
+    "tag"
+  ],
+  "author": "Evgeny Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visibilitysaurus/tagbuild/issues"
+  },
+  "homepage": "https://github.com/visibilitysaurus/tagbuild#readme"
+}
